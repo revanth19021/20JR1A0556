@@ -1,3 +1,4 @@
+// Explanation:  For Showing the train details and schedule of the train
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
