@@ -37,7 +37,6 @@ function App() {
               <td>{train.seatsAvailable.sleeper}</td>
               <td>{train.seatsAvailable.AC}</td>
               <td>{train.seatsAvailable.sleeper + train.seatsAvailable.AC}</td>
-              <td>{train.price.sleeper + train.price.AC}</td>
               <td>{train.delayedBy}</td>
             </tr>
           ))}
